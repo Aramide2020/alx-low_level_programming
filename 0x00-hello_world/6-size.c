@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- entry point
+ * main - entry point
  * Return: Always 0 (success)
  */
 int main(void)
@@ -8,8 +8,8 @@ int main(void)
 	int i;
 	long int l;
 	long long int ll;
-	float d
-	char c
+	float d;
+	char c;
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(c));
 	printf("Size of an int: %lu byte(s)\n", sizeof(i));
