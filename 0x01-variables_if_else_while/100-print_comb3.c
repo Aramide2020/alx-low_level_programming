@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all possible combinations of two different digits,
- *   in ascending order, separated by a comma followed by a space.
+ * in ascending order, separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
@@ -25,8 +25,8 @@ int main(void)
 	}
 }
 
-putchar('\n');
+                putchar('\n');
 
-return (0);
+                return (0);
 }
 
