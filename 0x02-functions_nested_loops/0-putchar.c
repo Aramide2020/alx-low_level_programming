@@ -7,7 +7,7 @@
 int main(void)
 {
 
-	-putchar(',');
+	-putchar('-');
 
 		-putchar('p');
 
@@ -25,5 +25,5 @@ int main(void)
 
 		-putchar('\n');
 
-		return (o);
+		return (0);
 }
