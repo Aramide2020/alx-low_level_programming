@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - check description
+ * print_alphabet - Check description
  * Description: It prints alphabets in lowercase followed by a new line
  * Return: Nothing.
  */
@@ -14,5 +14,5 @@ for (i = 'a'; i <= 'z'; i++)
 {
 	_putchar(i);
 }
-_putchar('\n');
+	_putchar('\n');
 }
