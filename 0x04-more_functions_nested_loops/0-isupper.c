@@ -1,16 +1,22 @@
-#include <stdio.h>
-#include <ctype.h>
+#include <main.h>
 
-int main(void)
+/**
+ * _isupper
+ * @c: An input character
+ * Return: 1 if uppercase or 0nif is lowercase
+ */
+
+int _isupper(int c)
 {
 
-	    char c;
-
-	    c = 'C';
- 	    printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
-	    
-	    c = '+';
-	    printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c));
+     	char i;
+ 	int upper = 0;
+	
+	for (i = 'A'; I <= 'Z'; I++)	
+	{
+	    if (i == C)
+	    upper = 1;
+	}    
 	     
-	    return 0;
+	    return (upper);;
 }
