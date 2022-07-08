@@ -10,13 +10,12 @@ int _isupper(int c)
 {
 
      	char i;
- 	int upper = 0;
-	
-	for (i = 'A'; I <= 'Z'; I++)	
+ 	int upper = 0;	
+	for (i = 'A'; i <= 'Z'; i++)	
 	{
 	    if (i == C)
 	    upper = 1;
 	}    
 	     
-	    return (upper);;
+	    return (upper);
 }
