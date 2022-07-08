@@ -9,9 +9,9 @@
 int _isupper(int c)
 {
 
-     	char i;
+     	char C;
  	int upper = 0;	
-	for (i = 'A'; i <= 'Z'; i++)	
+	for (C = 'A'; i <= 'Z'; i++)	
 	{
 	    if (i == C)
 	    upper = 1;
