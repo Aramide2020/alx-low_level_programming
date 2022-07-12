@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: string to be reserved.
+ * put2 - Prints one char out of two of a string.
+ * @str: The string containing characters.
  */
-void print_rev(char *s)
+void puts2(char *str)
 {
-	int len = 0, i = 0;
+	int i = 0, len = 0;
 
-	while (s[i++])
+	while (str[i++])
 		len++;
 
-	for (i = len - 1; i >= 0; i--)
-		_putchar(s[i]);
+	for (i = 0 ; i < len ; i += 2))
+		_putchar(str[i]);
 
 	_putchar('\n');
 }
