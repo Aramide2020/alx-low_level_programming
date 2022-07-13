@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * _strlen - Return the length of a string.
- * @str: string.
+ * print_rev - Prints a string in reverse.Return the length of a string.
+ * @s: string to be reserved.
  *
- * Return: Length.
  */
-size_t _strlen(const char *str)
+void print_rev(char *s)
 {
-	size_t len = 0;
+	int len = 0, i = 0;
 
-	while (*str++)
+	while (*s[i++])
 		len++;
 
-	return (len);
+	for (i = len - 1; i >= 0; i--)
+		_putchar(s[i]);
+
+	_putchar('\n');
 }
