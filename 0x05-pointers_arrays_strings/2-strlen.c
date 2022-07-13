@@ -2,7 +2,7 @@
 
 /**
  * _strlen - Returns the length of a string.Converts a string to an integer.
- * @str: String. 
+*@str: string. 
  *
  * Return: Length
  */
