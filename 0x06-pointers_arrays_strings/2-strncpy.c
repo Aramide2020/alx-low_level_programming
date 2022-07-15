@@ -1,14 +1,14 @@
 #include "main.h"                                                                                                                                                         
 
 /**                                                                                                                                                                       
- *_strncat - copies n bytes of src to the dest string                                                                                        
+ *_strncpy - copies n bytes of src to the dest string                                                                                        
  * @dest: string to copy to                                                                                                                         
  * @src: string being copied                                                                                                                                              
  * @n: largest number of bytes to copy                                                                                                                                    
  *
  * Return: address of dest                                          
  */                                                                                                                                                                       
-char *_strncat(char *dest, char *src, int n)                                                                                                                              
+char *_strncpy(char *dest, char *src, int n)                                                                                                                              
 {
        	int i;
 
