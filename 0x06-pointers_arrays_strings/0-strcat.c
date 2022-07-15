@@ -7,15 +7,14 @@
  *
  * Return: address of dest
  */
-
 char *_strcat(char *dest, char *src);
 {
-	inti, j;
+	int i, j;
 
 	i = j = 0;
 	while (*(dest + i))
 		i++;
-	while((*(dest + i) = *(src + j)))
+	while ((*(dest + i) = *(src + j)))
 	{
 		i++;
 		j++;
