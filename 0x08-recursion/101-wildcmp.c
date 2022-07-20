@@ -18,7 +18,6 @@ char *test(char *s5, char *s6, char *t5, char *t6)
 	else
 		return (test(s5 + 1, s6 + 1, t5, t6));
 }
-
 /**
  * wildcard - checks for the wildcards
  * @s3: string to compare to
@@ -65,5 +64,3 @@ int wildcmp(char *s1, char *s2)
 		return (1);
 	return (wildcmp(s1 + 1, s2 + 1));
 }
-
-
