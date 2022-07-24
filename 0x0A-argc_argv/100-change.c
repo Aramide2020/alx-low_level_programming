@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	a = atoi(argv[1]);
-        if (a <= 0)
+	if (a <= 0)
 	{
 		puts("0");
 		return (1);
@@ -38,4 +38,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", n);
 	return (0);
 }
- 
