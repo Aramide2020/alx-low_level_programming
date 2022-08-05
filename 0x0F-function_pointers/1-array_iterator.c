@@ -1,8 +1,8 @@
 #include "function_pointers.h"
 
 /**
- * int_index - searches for an integer
- * @array: array to serch through
+ * array_iterator - executes a func given as a param on each element of array
+ * @array: array to execute func on
  * @size: size of array
  * @action: pointer to the func to use
  *
